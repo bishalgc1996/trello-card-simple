@@ -1,0 +1,58 @@
+.header {
+  border: 1px solid #afa1a1;
+  background-color: #c3c398;
+}
+
+.header-inner {
+  width: 15%;
+  background: #b1b185;
+  padding: 5px 2px;
+  margin: 2px;
+  text-align: center;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+}
+
+.border-row td {
+  border-style: solid;
+  border-width: 1px;
+  font-weight: bold;
+  text-align: center;
+  width: 28%;
+  border-top: 2px solid yellow;
+}
+
+.no-border-row td {
+  border-style: none;
+}
+
+.double-border-card-first {
+  background: lightgray;
+}
+
+tr.border-row {
+  background: lightgray;
+}
+
+div#mydiv {
+  background: #d1bbbb;
+  border-left: 8px solid yellow;
+  position: absolute;
+}
+
+div#mydivheader {
+  cursor: move;
+}
+td {
+  background: lightgray;
+}
+
+p.task-name {
+  padding: 10px 5px;
+}
+
+.double-border-card td {
+  padding: 20px 5px;
+}
