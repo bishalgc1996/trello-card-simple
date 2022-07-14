@@ -12,7 +12,8 @@
 }
 
 .page-wrapper {
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .border-row td {
@@ -22,6 +23,7 @@
   text-align: center;
   width: 28%;
   border-top: 2px solid yellow;
+  padding: 20px 0;
 }
 
 .no-border-row td {
@@ -40,6 +42,8 @@ div#mydiv {
   background: #d1bbbb;
   border-left: 8px solid yellow;
   position: absolute;
+  left: 25%;
+  top: 20%;
 }
 
 div#mydivheader {
@@ -54,5 +58,6 @@ p.task-name {
 }
 
 .double-border-card td {
-  padding: 20px 5px;
+  padding: 200px 5px;
+  position: relative;
 }
