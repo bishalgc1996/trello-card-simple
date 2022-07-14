@@ -42,8 +42,6 @@ div#mydiv {
   background: #d1bbbb;
   border-left: 8px solid yellow;
   position: absolute;
-  left: 25%;
-  top: 20%;
 }
 
 div#mydivheader {
